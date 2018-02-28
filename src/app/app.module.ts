@@ -9,13 +9,15 @@ import {BotonesPage} from '../pages/botones/botones'
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import {PersonaPage} from '../pages/persona/persona';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ListPage,
-    BotonesPage
+    BotonesPage,
+    PersonaPage
   ],
   imports: [
     BrowserModule,
@@ -26,7 +28,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-    BotonesPage
+    BotonesPage,
+    PersonaPage
+
   ],
   providers: [
     StatusBar,
